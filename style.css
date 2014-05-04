@@ -40,3 +40,14 @@ ul#projects > li:first-child {
 .main {
     font-size: 130%;
 }
+
+#twitterInfoTerreii {
+    margin-top: 2cm;
+}
+
+footer {
+    font-size: 70%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
