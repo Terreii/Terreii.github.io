@@ -44,10 +44,3 @@ ul#projects > li:first-child {
 #twitterInfoTerreii {
     margin-top: 2cm;
 }
-
-footer {
-    font-size: 70%;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-}
