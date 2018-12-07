@@ -2,8 +2,9 @@
 layout: post
 title:  "Hello World!"
 date:   2015-11-04 21:24:00 +0100
-categories: written-in-german
+tags: [written-in-german, technology]
 ---
+
 Wie beginnt man am besten einen Blog?
 
 Ich fange einfach mal mit dem Warum und Wie an:

@@ -2,7 +2,7 @@
 layout: post
 title:  "A warm thank you to Berlin"
 date:   2015-12-29 19:07:00 +0100
-categories: written-in-english
+tags: [written-in-english, technology]
 ---
 
 In September, this year, I visited the web-conference-marathon of <a href="http://rejectjs.org" target="_blank">Reject.js</a>, <a href="http://2015.jsconf.eu/" target="_blank">JSConf.eu</a> and <a href="http://2015.cssconf.eu" target="_blank">CSSConf.eu</a> in Berlin. Which is part of <a href="http://wwwtf.berlin" target="_blank">WhatTheFest</a>.
