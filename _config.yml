@@ -35,6 +35,9 @@ header_pages:
 #- portfolio.md
 - impressum.md
 
+minima:
+  date_format: "%Y-%m-%d"
+
 # Collections of posts
 # Tags and year for now
 jekyll-archives:
