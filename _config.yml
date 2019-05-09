@@ -7,6 +7,9 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# For previewing drafts run jekyll with --drafts
+# 'bundle exec jekyll serve --drafts'
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
