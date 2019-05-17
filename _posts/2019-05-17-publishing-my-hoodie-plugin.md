@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Experience of publishing a package to npm"
-# date: 2019-00-00 00:00:00 +0100
+date:   2019-05-17 17:07:00 +0100
 tags: [written-in-english, technology, couchdb, pouchdb, hoodie, my-stuff]
 ---
 
