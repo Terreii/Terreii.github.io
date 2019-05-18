@@ -35,9 +35,9 @@ plugins:
 
 # Pages in the header
 header_pages:
-- index.md
-#- portfolio.md
-- impressum.md
+  - index.md
+  - portfolio.md
+  - impressum.md
 
 minima:
   date_format: "%Y-%m-%d"
