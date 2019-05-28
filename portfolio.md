@@ -16,17 +16,42 @@ title: Portfolio
 </style>
 
 #### Table of content
+- [Talents](#talents)
 - [hoodie-plugin-store-crypto](#hoodie-plugin-store-crypto)
 - [Andromeda-Viewer](#andromeda-viewer)
 - [Schichtkalender](#schichtkalender-shift-calendar)
 - [open source](#open-source)
 - [Design](#design)
 
+## Talents
+
+<div class="display-as-row">
+  <ul>
+    <li>JavaScript
+      <ul>
+        <li><a href="https://reactjs.org/">React</a></li>
+        <li><a href="https://emberjs.com/">Ember.js</a> (learning)</li>
+        <li><a href="https://pouchdb.com/">PouchDB</a></li>
+        <li><a href="https://expressjs.com/">Express</a></li>
+      </ul>
+    </li>
+    <li>CSS and HTML</li>
+    <li><a href="https://swift.org/">Swift</a></li>
+  </ul>
+
+  <ul>
+    <li>Java (beginner)</li>
+    <li><a href="https://www.rust-lang.org/">Rust</a> (beginner)</li>
+  </ul>
+</div>
+
 ## [hoodie-plugin-store-crypto](https://github.com/Terreii/hoodie-plugin-store-crypto)
 
 *A plugin for [Hoodie](http://hood.ie/) that adds methods to add, read, update and delete encrypted documents and enable end-to-end encryption.*
 
 I used this package to learn test-driven-development and maintaining a package, that is [published on npm](https://www.npmjs.com/package/hoodie-plugin-store-crypto). It was originally intended to be only a part of an other project of mine ([Andromeda-Viewer](#andromeda-viewer)), but I quickly recognized that it would be of good use for others.
+
+[More can be read in my blog-post about it]({% post_url 2019-05-17-publishing-my-hoodie-plugin %}).
 
 ## [Andromeda-Viewer](https://github.com/Terreii/andromeda-viewer/)
 
