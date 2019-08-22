@@ -10,6 +10,8 @@
 #
 # For previewing drafts run jekyll with --drafts
 # 'bundle exec jekyll serve --drafts'
+#
+# For live reloading add -l
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -25,6 +27,9 @@ url: "https://christopher-astfalk.de" # the base hostname & protocol for your si
 twitter_username: terreii
 github_username:  Terreii
 linkedin_username: christopher-astfalk-945079174
+rss: RSS-Feed
+
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
