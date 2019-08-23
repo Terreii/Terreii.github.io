@@ -2,19 +2,6 @@
 title: Portfolio
 ---
 
-<style>
-.display-as-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.with-shadow {
-  box-shadow: 0px 0px 30px -10px black;
-  margin: 30px;
-  border-radius: 5px;
-}
-</style>
-
 #### Table of content
 - [Talents](#talents)
 - [hoodie-plugin-store-crypto](#hoodie-plugin-store-crypto)
@@ -25,23 +12,30 @@ title: Portfolio
 
 ## Talents
 
-<div class="display-as-row">
+Over the years I gathered some skills in programming languages and frameworks.
+
+<div class="talents display-as-row">
   <ul>
     <li>JavaScript
       <ul>
-        <li><a href="https://reactjs.org/">React</a></li>
+        <li>
+          <a href="https://reactjs.org/">React</a>
+          /
+          <a href="https://preactjs.com/">Preact</a>
+        </li>
         <li><a href="https://emberjs.com/">Ember.js</a> (learning)</li>
         <li><a href="https://pouchdb.com/">PouchDB</a></li>
         <li><a href="https://expressjs.com/">Express</a></li>
+        <li><a href="https://hapi.dev/">Hapi.js</a> (learning)</li>
       </ul>
     </li>
     <li>CSS and HTML</li>
     <li><a href="https://swift.org/">Swift</a></li>
   </ul>
 
-  <ul>
-    <li>Java (beginner)</li>
-    <li><a href="https://www.rust-lang.org/">Rust</a> (beginner)</li>
+  <ul class="beginner">
+    <li>Java</li>
+    <li><a href="https://www.rust-lang.org/">Rust</a></li>
   </ul>
 </div>
 
@@ -69,7 +63,7 @@ This is my project where I can grow all my talents!
 
 The [original version](https://github.com/Terreii/shift-calendar-rt/tree/gh-pages) is one of my oldest projects. But I realized, that it would be easier to re-write it than update it.
 
-With the new version I focused almost exclusively a mobile experience. With a release size of 459kb (122,7kb without icons) I might have succeeded.
+With the new version I focused almost exclusively a mobile experience. With a release size of 459kb (the bundle with 94,51kb) I'm on a good way.
 
 It is a [PWA](https://en.wikipedia.org/wiki/Progressive_web_applications) and would pass as [JAMstack](https://jamstack.org/), but without a API-backend. At the moment it is *only in German* (because it is a utility app for my work). With it I learned a lot about making a web-app accessible for people with little to almost no computer knowledge.
 
@@ -93,7 +87,5 @@ Over the years I also helped to design and implement the CSS for web-sites.
 My first page-design was of my scout-groups page [dpsg-eningen.de](http://dpsg-eningen.de/).
 
 [![dpsg-eningen.de](/assets/dpsg-eningen.jpg)](http://dpsg-eningen.de/)
-
-Because of it, I was then ask to help the [katholische-kirche-eningen.de](http://www.katholische-kirche-eningen.de/) with their redesign.
 
 Later I lead the team that designed [IronScout2018.de](https://www.ironscout2018.de/).
