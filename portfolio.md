@@ -6,38 +6,21 @@ title: Portfolio
 - [Talents](#talents)
 - [hoodie-plugin-store-crypto](#hoodie-plugin-store-crypto)
 - [Andromeda-Viewer](#andromeda-viewer)
-- [Schichtkalender](#schichtkalender-shift-calendar)
+- [Schichtkalender (shift-calendar)](#schichtkalender-shift-calendar)
 - [open source](#open-source)
 - [Design](#design)
 
 ## Talents
 
-Over the years I gathered some skills in programming languages and frameworks.
+Primarily I program for the web. But it wasn't where I started programming.
 
-<div class="talents display-as-row">
-  <ul>
-    <li>JavaScript
-      <ul>
-        <li>
-          <a href="https://reactjs.org/">React</a>
-          /
-          <a href="https://preactjs.com/">Preact</a>
-        </li>
-        <li><a href="https://emberjs.com/">Ember.js</a> (learning)</li>
-        <li><a href="https://pouchdb.com/">PouchDB</a></li>
-        <li><a href="https://expressjs.com/">Express</a></li>
-        <li><a href="https://hapi.dev/">Hapi.js</a> (learning)</li>
-      </ul>
-    </li>
-    <li>CSS and HTML</li>
-    <li><a href="https://swift.org/">Swift</a></li>
-  </ul>
+While my education (German "Ausbildung") to an electronics technicians for automation technology I did learn to program in __[Instruction list](https://en.wikipedia.org/wiki/Instruction_list)__ to control production pipelines.
 
-  <ul class="beginner">
-    <li>Java</li>
-    <li><a href="https://www.rust-lang.org/">Rust</a></li>
-  </ul>
-</div>
+After that I (and the web) taught me *web-development*. First without any library. Then with __[React](https://reactjs.org/)__ and later with __[Preact](https://preactjs.com/)__ and __[jQuery](https://jquery.com/)__. Currently I'm learning __[Ember.js](https://emberjs.com/)__.
+
+On the server side I started with __[Express.js](https://expressjs.com/)__ and I'm learning __[Hapi.js](https://hapi.dev/)__. While my database "expertise" is primarily in __[PouchDB](https://pouchdb.com/)__ and __[CouchDB](https://couchdb.apache.org/)__.
+
+I also did program a small iOS app in __[Swift](https://swift.org/)__. However I never did release it. And I'm a beginner in __[Java](https://www.java.com/)__ and __[Rust](https://www.rust-lang.org/)__.
 
 ## [hoodie-plugin-store-crypto](https://github.com/Terreii/hoodie-plugin-store-crypto)
 
@@ -75,7 +58,7 @@ It is a [PWA](https://en.wikipedia.org/wiki/Progressive_web_applications) and wo
 
 ## open source
 
-I also contribute some patches to open source projects:
+I also contributed some patches to open source projects:
 
 - [hoodiehq / pouchdb-users](https://github.com/hoodiehq/pouchdb-users/pull/10)
 - [hoodiehq / hoodie-store-client](https://github.com/hoodiehq/hoodie-store-client/issues/168)
