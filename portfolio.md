@@ -1,5 +1,6 @@
 ---
 title: Portfolio
+permalink: /portfolio
 ---
 
 #### Table of content
@@ -46,7 +47,7 @@ This is my project where I can grow all my talents!
 
 The [original version](https://github.com/Terreii/shift-calendar-rt/tree/gh-pages) is one of my oldest projects. But I realized, that it would be easier to re-write it than update it.
 
-With the new version I focused almost exclusively a mobile experience. With a release size of 459kb (the bundle with 94,51kb) I'm on a good way.
+With the new version I focused almost exclusively a mobile experience. With a release size of 459kb (the bundle with 94,51kb no gzip) I'm on a good way.
 
 It is a [PWA](https://en.wikipedia.org/wiki/Progressive_web_applications) and would pass as [JAMstack](https://jamstack.org/), but without a API-backend. At the moment it is *only in German* (because it is a utility app for my work). With it I learned a lot about making a web-app accessible for people with little to almost no computer knowledge.
 

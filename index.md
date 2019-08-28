@@ -6,10 +6,10 @@ title: Home
 layout: home
 ---
 
-### Some of my Projects:
+<span class="greeting">Hi, I'm Christopher!</span>
 
-Project | Description
-----|----
-[hoodie-plugin-store-crypto](https://github.com/Terreii/hoodie-plugin-store-crypto) | A plugin for [Hoodie](http://hood.ie/) that adds methods to add, read, update and delete encrypted documents and enable end-to-end encryption.
-[Andromeda-Viewer](https://github.com/Terreii/andromeda-viewer/) | Small web-client for connecting to the virtual worlds of [Second Life](https://secondlife.com/) and [OpenSimulator](http://opensimulator.org/).
-[Schichtkalender](https://schichtkalender-rt.now.sh/) ([source](https://github.com/Terreii/shift-calendar-rt/)) | A unofficial shift-calendar for Bosch in Reutlingen.<br />Ein inoffizieller Schichtkalender für Bosch in Reutlingen.
+I'm a *scout-leader* at [DPSG-Eningen](http://dpsg-eningen.de/) and *hobby web-developer* looking to change my career into web-development.
+
+My passion is in [offline first](http://offlinefirst.org/) web apps/[PWA](https://en.wikipedia.org/wiki/Progressive_web_applications).
+
+You can find my projects [on Github](https://github.com/Terreii/) or in [my portfolio](/portfolio).

@@ -1,5 +1,9 @@
 // Styles for the home/main page
 
+.greeting {
+  font-size: $big-font-size;
+}
+
 .post-list-header {
   display: flex;
   flex-direction: row;
