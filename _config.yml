@@ -49,19 +49,19 @@ minima:
 
 # Collections of posts
 # Tags and year for now
-jekyll-archives:
-  enabled:
-    - tags
-    - year
-  layouts: 
-    tag: tag-archive
-    year: year-archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+# jekyll-archives:
+#   enabled:
+#     - tags
+#     - year
+#   layouts: 
+#     tag: tag-archive
+#     year: year-archive
+#   permalinks:
+#     year: '/:year/'
+#     month: '/:year/:month/'
+#     day: '/:year/:month/:day/'
+#     tag: '/tag/:name/'
+#     category: '/category/:name/'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

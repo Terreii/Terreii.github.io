@@ -18,7 +18,8 @@ layout: default
         <span itemprop="tags">
           {{"Tags: "}}
           {%- for tag in page.tags -%}
-          <a href="{{ '/tag/' | append: tag | relative_url }}">{{tag}}</a>
+          <!-- <a href="{{ '/tag/' | append: tag | relative_url }}">{{tag}}</a> -->
+          {{tag}}
             {%- if tag != page.tags.last -%}
               {{", "}}
             {%- endif -%}
