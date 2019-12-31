@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The next feature in hoodie-plugin-store-crypto"
-# date: 2019-12-31 13:51:00 +0100
+date: 2019-12-31 13:52:00 +0100
 tags: [written-in-english, technology, couchdb, pouchdb, hoodie, my-stuff, hoodie-plugin-store-crypto]
 ---
 
