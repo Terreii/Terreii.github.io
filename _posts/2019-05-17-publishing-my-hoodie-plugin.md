@@ -2,7 +2,7 @@
 layout: post
 title: "Experience of publishing a package to npm"
 date:   2019-05-17 17:07:00 +0100
-tags: [written-in-english, technology, couchdb, pouchdb, hoodie, my-stuff]
+tags: [written-in-english, technology, couchdb, pouchdb, hoodie, my-stuff, hoodie-plugin-store-crypto]
 ---
 
 Last year I released my first npm-package: __[hoodie-plugin-store-crypto](https://www.npmjs.com/package/hoodie-plugin-store-crypto)__! It is a plugin for the [Hoodie-Project](http://hood.ie), that allows to save encrypted data on a users store.
