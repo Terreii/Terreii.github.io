@@ -44,6 +44,8 @@ plugins:
 header_pages:
   - index.md
   - portfolio.md
+  - title: usePouchDB
+    url: /use-pouchdb
   - impressum.md
 
 minima:
