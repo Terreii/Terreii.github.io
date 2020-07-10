@@ -3,6 +3,7 @@ layout: post
 title:  "Hello World!"
 date:   2015-11-04 21:27:16 +0100
 tags: [written-in-german, technology]
+lang: "de"
 ---
 
 Wie beginnt man am besten einen Blog?

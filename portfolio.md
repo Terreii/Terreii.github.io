@@ -1,6 +1,7 @@
 ---
 title: Portfolio
 permalink: /portfolio
+lang: "en"
 ---
 
 #### Table of content
