@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "usePouchDB - React Hooks for PouchDB"
+date: 2020-07-10 16:20:00 +0200
 tags: [written-in-english, technology, couchdb, pouchdb, react, react-hooks]
 lang: "en"
 ---
 
 Last fall I (finally) read [CouchDB's Documentation](http://docs.couchdb.org/en/stable/) completely. And since I've read its [security](http://docs.couchdb.org/en/stable/intro/security.html "CouchDB's security documentation") and [design documents](http://docs.couchdb.org/en/stable/ddocs/index.html "design documents documentation index") parts, I can't get the idea out of my head, that all you need for a [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) web app is a front end with [React](https://reactjs.org/) + [React-Hooks](https://reactjs.org/docs/hooks-intro.html) + [PouchDB](https://pouchdb.com/) hosted on a static file host. And [CouchDB](https://couchdb.apache.org/) paired with some [serverless functions (function as a service)](https://en.wikipedia.org/wiki/Function_as_a_service) as the backend end.
 
-So I written those hooks and published them as [__usePouchDB__](https://christopher-astfalk.de/use-pouchdb/) to [npm](https://www.npmjs.com/package/use-pouchdb). This post will go into some design decisions and how I think they could be used. For a tutorial and API docs please visit [https://christopher-astfalk.de/use-pouchdb/](https://christopher-astfalk.de/use-pouchdb/).
+So I written those React hooks and published them as [__usePouchDB__](https://christopher-astfalk.de/use-pouchdb/) to [npm](https://www.npmjs.com/package/use-pouchdb). This post will go into some design decisions and how I think they could be used. For a tutorial and API docs please visit [https://christopher-astfalk.de/use-pouchdb/](https://christopher-astfalk.de/use-pouchdb/).
 
 If you use a [service-worker](https://developers.google.com/web/fundamentals/primers/service-workers/ "Service Workers: an Introduction"), then your CRUD web app becomes, with some small changes, even [offline first](http://offlinefirst.org/ "Page of the Offline First movement")! [Create-react-app](https://create-react-app.dev/ "create-react-app's page") for example, comes with a service-worker out of the box.
 
@@ -33,7 +34,7 @@ Every hook has an option to select the used database by a key. That key can be c
 
 There is also the concept of a *default database*: it gets used when no database name/key is provided. The `<Provider>` sets which of the databases is the default. A child `<Provider>` overwrites the *default db* for its subtree.
 
-This can be combined to create seamless switching between two databases: For example when your user visits your page the remote database (on CouchDB) is the *default db*. The user can load and interact with all your content. While in the background you did create a local database and replicate the remote database to your local one. And once the local database, all [Mango indexes](https://pouchdb.com/guides/mango-queries.html) and [views](https://pouchdb.com/guides/queries.html) are up to date, switch the *default database* to be the local one. Then all hooks will automatically re-query.
+This can be combined to create seamless switching between two databases: For example when your user visits your page the remote database (on CouchDB) is the *default db*. The user can load and interact with all your content. While in the background you create a local database and replicate the remote database to the local one. And once the local database, all [Mango indexes](https://pouchdb.com/guides/mango-queries.html) and [views](https://pouchdb.com/guides/queries.html) are up to date, switch the *default database* to be the local one. Then all hooks will automatically re-query.
 
 Hooks that are re-querying because an option or a database did change, show the last result until the query finishes. The sole exception is [`useDoc`](https://christopher-astfalk.de/use-pouchdb/docs/api/use-doc) (hook version of [`db.get()`](https://pouchdb.com/api.html#fetch_document)). When it has a initial value, then it returns the initial value until the query finishes. To reset hooks, embed them in Components and use those options, which should reset the hook, in its `key` prop.
 
@@ -122,6 +123,7 @@ So I combined [`use_index`](https://pouchdb.com/guides/mango-queries.html#use_in
 - If the `index`-field is a *string* or an *array of strings*, `useFind` will use them as `use_index` for `db.find()`.
 - But if the `index`-field contains an object, that object will be used in the `index`-field of `db.createIndex()`. And the `id` and `name` in its result will be used in the `use_index` field of `db.find()`.
 - And if the `index`-field is `null` or `undefined`, then [`db.explain()`](https://pouchdb.com/api.html#explain_index) will be used to find the `id` and `name`.
+- There is no `use_index` option on the `useFind` hook.
 
 Once the `id` and `name` is know, `useFind` will not call `db.createIndex()` or `db.explain()` until an option changes.
 
@@ -167,6 +169,6 @@ If you use a local database this all doesn't matter. Because its all local! That
 
 usePouchDB is probably useful. When I moved my experimentation App from Redux to only hooks it became much simpler.
 
-In components I specified what data I needed in that component, and the hooks delivered. On the side I also had some other hooks for other state and some to update my data. When the later ones where call, usePouchDBs hooks automatically updated!
+In components I specified what data I needed in that component, and the hooks delivered. I also had some other hooks for other state and some to update my data. When the later ones where call, usePouchDBs hooks automatically updated!
 
 But there is still work left to do.
