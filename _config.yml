@@ -12,6 +12,8 @@
 # 'bundle exec jekyll serve --drafts'
 #
 # For live reloading add -l
+#
+# To get the path of a gem enter "bundle info [gem name] --path"
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -42,6 +44,8 @@ plugins:
 header_pages:
   - index.md
   - portfolio.md
+  - title: usePouchDB
+    url: /use-pouchdb
   - impressum.md
 
 minima:

@@ -1,10 +1,12 @@
 ---
 title: Portfolio
 permalink: /portfolio
+lang: "en"
 ---
 
 #### Table of content
 - [Talents](#talents)
+- [usePouchDB](#usepouchdb)
 - [hoodie-plugin-store-crypto](#hoodie-plugin-store-crypto)
 - [Andromeda-Viewer](#andromeda-viewer)
 - [Schichtkalender (shift-calendar)](#schichtkalender-shift-calendar)
@@ -19,9 +21,21 @@ While my education (German "Ausbildung") to an electronics technicians for autom
 
 After that I (and the web) taught me *web-development*. First without any library. Then with __[React](https://reactjs.org/)__ and later with __[Preact](https://preactjs.com/)__ and __[jQuery](https://jquery.com/)__. Currently I'm learning __[Ember.js](https://emberjs.com/)__.
 
-On the server side I started with __[Express.js](https://expressjs.com/)__ and I'm learning __[Hapi.js](https://hapi.dev/)__. While my database "expertise" is primarily in __[PouchDB](https://pouchdb.com/)__ and __[CouchDB](https://couchdb.apache.org/)__.
+On the server side I started with __[Express.js](https://expressjs.com/)__ and I'm learning __[Hapi.js](https://hapi.dev/)__. While my database expertise is primarily in __[PouchDB](https://pouchdb.com/)__ and __[CouchDB](https://couchdb.apache.org/)__.
 
-I also did program a small iOS app in __[Swift](https://swift.org/)__. However I never did release it. And I'm a beginner in __[Java](https://www.java.com/)__ and __[Rust](https://www.rust-lang.org/)__.
+I also did program a small iOS app in __[Swift](https://swift.org/)__. However I did never release it. And I'm a beginner in __[Java](https://www.java.com/)__ and __[Rust](https://www.rust-lang.org/)__.
+
+## [usePouchDB](https://christopher-astfalk.de/use-pouchdb/)
+
+usePouchDB is a collection of [React Hooks](https://reactjs.org/docs/hooks-intro.html) to access local PouchDB Databases.
+
+It is intended to be a puzzle piece in replacing the deprecated [CouchApps](https://couchapp.readthedocs.io/en/latest/intro/index.html). And also to make working with PouchDB and CouchDB easier in React Apps.
+
+Every hook corresponds to a PouchDB method. It has the same options and result type. But a different name. A name that is more in the spirit of hooks. For example: PouchDB's method to load a single [document (JSON-Object)](https://pouchdb.com/guides/documents.html "PouchDB's Guide for working with documents") `db.get(id)` becomes `useDoc(id)`.
+<br />
+Additionally every hook subscribes to changes, and updates it's result to represent the new state in the database.
+
+usePouchDB is entirely written in __[Typescript](https://www.typescriptlang.org/)__.
 
 ## [hoodie-plugin-store-crypto](https://github.com/Terreii/hoodie-plugin-store-crypto)
 
@@ -47,7 +61,7 @@ This is my project where I can grow all my talents!
 
 The [original version](https://github.com/Terreii/shift-calendar-rt/tree/gh-pages) is one of my oldest projects. But I realized, that it would be easier to re-write it than update it.
 
-With the new version I focused almost exclusively a mobile experience. With a release size of 459kb (the bundle with 94,51kb no gzip) I'm on a good way.
+With the new version I focused almost exclusively on a mobile experience. With a release size of 459kb (the bundle with 94,51kb no gzip) I'm on a good way.
 
 It is a [PWA](https://en.wikipedia.org/wiki/Progressive_web_applications) and would pass as [JAMstack](https://jamstack.org/), but without a API-backend. At the moment it is *only in German* (because it is a utility app for my work). With it I learned a lot about making a web-app accessible for people with little to almost no computer knowledge.
 

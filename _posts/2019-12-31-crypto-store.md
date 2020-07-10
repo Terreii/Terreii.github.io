@@ -3,6 +3,7 @@ layout: post
 title: "The next feature in hoodie-plugin-store-crypto"
 date: 2019-12-31 13:52:00 +0100
 tags: [written-in-english, technology, couchdb, pouchdb, hoodie, my-stuff, hoodie-plugin-store-crypto]
+lang: "en"
 ---
 
 With my package [hoodie-plugin-store-crypto](https://www.npmjs.com/package/hoodie-plugin-store-crypto) reaching version 3.1 and the year 2019 coming to a close, I wanted to write a post about the next feature I'm going to implement:

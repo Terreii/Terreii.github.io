@@ -4,6 +4,7 @@
 
 title: Home
 layout: home
+lang: "en"
 ---
 
 <span class="greeting">Hi, I'm Christopher!</span>

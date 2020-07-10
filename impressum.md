@@ -2,6 +2,7 @@
 layout: page
 title: Impressum
 permalink: /impressum
+lang: "de"
 ---
 
 In Germany every site must have an impressum.
