@@ -25,7 +25,9 @@ On the server side I started with __[Express.js](https://expressjs.com/)__ and I
 
 I also did program a small iOS app in __[Swift](https://swift.org/)__. However I did never release it. And I'm a beginner in __[Java](https://www.java.com/)__ and __[Rust](https://www.rust-lang.org/)__.
 
-## [usePouchDB](https://christopher-astfalk.de/use-pouchdb/)
+## usePouchDB
+
+{% include github_repository.html repo="use-pouchdb" %}
 
 usePouchDB is a collection of [React Hooks](https://reactjs.org/docs/hooks-intro.html) to access local PouchDB Databases.
 
@@ -37,7 +39,9 @@ Additionally every hook subscribes to changes, and updates it's result to repres
 
 usePouchDB is entirely written in __[Typescript](https://www.typescriptlang.org/)__.
 
-## [hoodie-plugin-store-crypto](https://github.com/Terreii/hoodie-plugin-store-crypto)
+## hoodie-plugin-store-crypto
+
+{% include github_repository.html repo="hoodie-plugin-store-crypto" %}
 
 *A plugin for [Hoodie](http://hood.ie/) that adds methods to add, read, update and delete encrypted documents and enable end-to-end encryption.*
 
@@ -45,7 +49,9 @@ I used this package to learn test-driven-development and maintaining a package, 
 
 [More can be read in my blog-post about it]({% post_url 2019-05-17-publishing-my-hoodie-plugin %}).
 
-## [Andromeda-Viewer](https://github.com/Terreii/andromeda-viewer/)
+## Andromeda-Viewer
+
+{% include github_repository.html repo="andromeda-viewer" %}
 
 *Small web-client for connecting to the virtual worlds of [Second Life](https://secondlife.com/) and [OpenSimulator](http://opensimulator.org/).*
 
@@ -55,7 +61,11 @@ This is my project where I can grow all my talents!
 - it must run on mobile and desktop.
 - it must be 100% accessible.
 
-## [Schichtkalender (shift-calendar)](https://schichtkalender-rt.now.sh/)
+## Schichtkalender (shift-calendar)
+
+{% include github_repository.html repo="shift-calendar-rt" name="Schichtkalender (shift-calendar)" %}
+
+*Hosted at [schichtkalender-rt.now.sh](https://schichtkalender-rt.now.sh/).*
 
 *A unofficial shift-calendar for Bosch in Reutlingen.*
 
