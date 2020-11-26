@@ -3,11 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: Home
+greeting: Hi, I'm Christopher!
 layout: home
 lang: "en"
 ---
-
-<span class="greeting">Hi, I'm Christopher!</span>
 
 I'm a *scout-leader* at [DPSG-Eningen](http://dpsg-eningen.de/) and *hobby web-developer* looking to change my career into web-development.
 
