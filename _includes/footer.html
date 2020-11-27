@@ -1,10 +1,10 @@
-<footer class="site-footer h-card">
+<footer class="footer h-card">
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <h2 class="footer__heading">{{ site.title | escape }}</h2>
 
-    <div class="footer-col-wrapper">
-      <address class="footer-col">
+    <div class="footer__col-wrapper">
+      <address class="footer__col footer__address">
         <div class="p-name">
           {%- if site.author -%}
             {{ site.author | escape }}
@@ -17,11 +17,11 @@
         {%- endif -%}
       </address>
 
-      <div class="footer-col">
+      <div class="footer__col">
         {%- include social.html -%}
       </div>
 
-      <div class="footer-col footer-description">
+      <div class="footer__col footer__description">
         <p>{{- site.description | escape -}}</p>
       </div>
     </div>
