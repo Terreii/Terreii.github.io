@@ -19,7 +19,7 @@ gem "github-pages", ">= 209", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", ">= 0.13.0"
+  gem "jekyll-feed", ">= 0.15.1"
   gem "jekyll-archives", ">= 2.2.1"
 end
 
